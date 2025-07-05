@@ -13,35 +13,35 @@ body {
     position: relative;
     padding: 20px;
   }
-  
   .heart {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 60px;
+    height: 60px;
     background-color: #e63946;
     transform: rotate(-45deg);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   
   .heart::before,
   .heart::after {
     content: "";
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 60px;
+    height: 60px;
     background-color: #e63946;
     border-radius: 50%;
   }
   
   .heart::before {
-    top: -75px;
+    top: -30px;
     left: 0;
   }
   
   .heart::after {
     top: 0;
-    left: 75px;
+    left: 30px;
   }
+  
   
   .text {
     color: #000;
@@ -167,4 +167,12 @@ body {
       transform: translateX(-30px) rotate(-45deg) scale(1.5);
     }
   }
-  
+  .love-photo {
+    max-width: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+    display: block;
+  }
+    
