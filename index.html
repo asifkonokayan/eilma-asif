@@ -4,11 +4,34 @@
   <meta charset="UTF-8">
   <title>I Love You Eilma</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="heart"></div>
-    <div class="text">I love you<br>Eilma</div>
+  <div class="heart-animation-area">
+    <div class="container">
+      <div class="heart"></div>
+      <div class="text">I love you<br>Eilma</div>
+      <p class="message">
+        Every heartbeat of mine whispers your name. You're my smile in the morning, my peace at night. <br>
+        I just want you to know — you are loved more than words can say. 💖
+      </p>
+
+      <form action="https://formspree.io/f/mqaboqjq" method="POST" class="love-form">
+        <label class="question" for="feelings">Tell me... how do you feel about me? 😊</label>
+        <textarea id="feelings" name="message" rows="4" placeholder="Write your feelings here..." required></textarea>
+        <button type="submit">Send With Love ❤️</button>
+      </form>
+      
+      
+    </div>
+
+    <!-- Floating hearts -->
+    <div class="floating-hearts">
+      <div class="heart-float"></div>
+      <div class="heart-float delay1"></div>
+      <div class="heart-float delay2"></div>
+    </div>
   </div>
 </body>
 </html>
+
